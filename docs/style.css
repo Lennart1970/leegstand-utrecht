@@ -1,0 +1,33 @@
+:root{--fg:#222;--muted:#5a5a5a;--bg:#fbfaf7;--accent:#1f5f7a;--line:#e3e0d8}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,"Times New Roman",serif;font-size:1.125rem;line-height:1.7}
+main,header.site,footer.site{max-width:720px;margin:0 auto;padding:0 1.25rem}
+header.site{padding-top:2rem}
+.status{display:inline-block;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.95rem;background:#fff4d6;border:1px solid #e8d29a;border-radius:4px;padding:.3rem .7rem;margin:0 0 1rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.5rem 0 1rem}
+h2{font-size:1.4rem;line-height:1.3;margin:2.5rem 0 .75rem;padding-top:.5rem;border-top:1px solid var(--line)}
+h3{font-size:1.15rem;margin:1.75rem 0 .5rem}
+p,ul,ol,table{margin:0 0 1.1rem}
+li{margin-bottom:.4rem}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
+a:hover{text-decoration-thickness:2px}
+.lead{font-size:1.2rem;color:#333}
+.meta{color:var(--muted);font-size:1rem}
+nav.toc{background:#fff;border:1px solid var(--line);border-radius:6px;padding:1rem 1.25rem;margin:1.5rem 0 2rem;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1rem}
+nav.toc h2{border:0;margin:0 0 .5rem;padding:0;font-size:1.05rem}
+nav.toc ol{margin:0;padding-left:1.4rem}
+sup.ref a{text-decoration:none;font-size:.75em;font-family:system-ui,sans-serif}
+figure{margin:2rem 0}
+figure img{display:block;width:100%;height:auto;border-radius:4px;background:#eee}
+figcaption{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.85rem;color:var(--muted);line-height:1.5;margin-top:.5rem}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:1rem;line-height:1.5}
+th,td{text-align:left;vertical-align:top;padding:.5rem .6rem;border-bottom:1px solid var(--line)}
+th{font-family:system-ui,sans-serif;font-size:.9rem}
+blockquote{margin:1rem 0;padding-left:1rem;border-left:3px solid var(--line);color:#444}
+ol.bronnen{font-size:.95rem;line-height:1.55;padding-left:2rem}
+ol.bronnen li{overflow-wrap:anywhere}
+.signature{margin-top:2rem;font-style:italic}
+footer.site{color:var(--muted);font-size:.9rem;padding-top:2rem;padding-bottom:3rem;border-top:1px solid var(--line);margin-top:3rem}
+@media (max-width:520px){body{font-size:1.05rem}h1{font-size:1.55rem}h2{font-size:1.25rem}}
